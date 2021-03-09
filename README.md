@@ -7,7 +7,7 @@ Can add multiple nodes each with their own locally stored blockchain, a Public K
 
 The blockchain is stored locally in a .txt file.
 
-Wallet saving,loading, and transaction signature verification
+Wallet saving,loading, and transaction signature verification.
 
 Real SHA256 hashing for the blocks, and proof of work.
 
@@ -23,4 +23,9 @@ Thie UI will be changed to a use react later on.
 
 There are still some improvements needed to make it into a production ready blockchain.
 
+To start run:   python node.py(will start a node with the default port)
+
+To add a node run: python node.py -p(enter port number here)
+
+Run multiple nodes at the same time to test the consensus mechanism.
 
