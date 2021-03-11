@@ -31,5 +31,9 @@ run: python node.py -p(enter port number here)
 
 <br/>
 
+<h3> Testing the Blockchain </h3>
 Run multiple nodes at the same time to test the consensus mechanism.
+After adding a node, navigate to the network tab on the page and add the port number of the other node.
+
+
 
